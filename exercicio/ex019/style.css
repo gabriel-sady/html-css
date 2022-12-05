@@ -1,0 +1,32 @@
+@charset "UTF-8";
+{
+    height: 100%
+}
+body{
+    background-image: linear-gradient(to bottom, aquamarine, rgb(5, 111, 76));
+    width: 100%;
+    max-width: 1000px;
+    font: normal normal 1.2em verdana,sans-serif;
+    text-align: center;
+    text-indent: 2em;
+}
+h1{
+    color: rgb(3, 56, 77);
+}
+h1#princ{
+    font-size: 2.5em;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
+    
+}
+
+.basic{
+    color: rgb(61, 239, 88);
+}
+.interm{
+    color: rgb(239, 239, 61);
+}
+.avanc{
+    color: rgb(239, 61, 61);
+}
