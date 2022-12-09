@@ -8,12 +8,7 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+
             /*
             shorthand background:display:
             color
@@ -22,8 +17,16 @@
             repeat
             [size]
             attachment
+
+            ANTES:
+                        background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
             */
-            background: black url(imagens/wallpaper002.jpg) center center no;
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
         }
         main{
             background-color: white;
