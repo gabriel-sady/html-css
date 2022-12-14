@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iframes</title>
 </head>
 <body>
-    
+    <h1>Utilizando iframe para reproduzir links</h1>
+    <p>Os links para ser reproduzido dentro do iframe:</p>
+    <a href="paginas auxiliares/pag001.html" target="iframe">Primeira Página</a>
+    <a href="paginas auxiliares/pag002.html" target="iframe"> Segunda Página</a>
+    <a href="paginas auxiliares/pag003.html" target="iframe">Terceira Página</a><br>
+
+    O iframe: <br>
+    <iframe srcdoc="<h1>Escolha um dos Links Acima</h1> <p> Para ser reproduzido nesta tela</p>" name="iframe" frameborder="1" width="750px" height="750px"></iframe>
 </body>
 </html>
